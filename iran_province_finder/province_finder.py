@@ -1,4 +1,4 @@
-from provinces_polygons import *
+from .provinces_polygons import *
 from shapely.geometry import Point
 
 def find(latitude, longtitude):
@@ -16,6 +16,3 @@ def _convert_x(longtitude):
 def _convert_y(latitude):
     """ convert latitude to y """
     return -68.75659401 * latitude + 2782.239846283
-
-# 1166 1059
-# 41 48
