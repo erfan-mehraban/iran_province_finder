@@ -11,7 +11,7 @@ These instructions will get you a copy of the project up and running on your loc
 ### Installing
 
 ```bash
-$ pip3 install git+https://github.com/erfan-mehraban/iran_province_founder
+$ pip3 install git+https://github.com/erfan-mehraban/iran_province_finder
 ```
 
 ### Configure
