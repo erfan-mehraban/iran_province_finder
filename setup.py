@@ -1,8 +1,8 @@
 from setuptools import setup, find_packages
 
-setup(name='iran province founder',
+setup(name='iran province finder',
     version='0.1',
-    description='found province of iran correspond to latitude and longtitude',
+    description='find province of iran correspond to latitude and longtitude',
     author='Erfan Mehraban',
     author_email='erfan.mehraban@gmail.com',
     license='MIT',

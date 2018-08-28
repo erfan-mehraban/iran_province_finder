@@ -1,6 +1,6 @@
-# Iran Province Founder
+# Iran Province Finder
 
-python3 library for founding province of iran correspond to latitude and longtitude
+python3 library for finding province of iran correspond to latitude and longtitude
 
 currently supporting 31 province.
 
@@ -23,7 +23,7 @@ Change ```provinces_polygons.py``` and ```province``` array and modify second it
 Import it by:
 
 ```python3
-from iran_province_founder.province_finder import find_province
+from iran_province_finder.province_finder import find_province
 ```
 
 And use ```find_province``` funtion whenever you want:

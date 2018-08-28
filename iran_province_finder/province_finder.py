@@ -1,7 +1,7 @@
 from provinces_polygons import *
 from shapely.geometry import Point
 
-def find_province(latitude, longtitude):
+def find(latitude, longtitude):
     """ return name of province correspond to longtitude and latitude """
     point = Point(_convert_x(longtitude), _convert_y(latitude))
     for polygon, name in province:
